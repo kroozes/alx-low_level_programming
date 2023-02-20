@@ -1,8 +1,11 @@
-#!/bin/bash
-#include <stdio> 
-int main()
+#include <stdio.h> 
+/**
+ * main - Entry point
+ *
+ * return: Always 0
+ */
+int main(void)
 {
-puts("Programming is like building a multilingual puzzle\n");
-getchar();
-return 0;
+	puts("Programming is like building a multilingual puzzle\n");
+	return 0;
 }
