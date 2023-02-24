@@ -1,23 +1,26 @@
 #include <stdio.h>
+#include "main.h"
 /**
+ * main - entry point
  * FizzBuzz - description
  *
  * Return: always 0
  */
 int main(void)
 {
-	int n;
+	int i;
+
 	for (i = 1; i <= 100; i++)
 	{
 	if (i % 3 == 0 && i % 5 == 0)
 	{
 	printf("FizzBuzz");
 	}
-	else if ( i % 3 == 0)
+	else if (i % 3 == 0)
 	{
 	printf("Fizz");
 	}
-	else if ( i % 5 == 0)
+	else if (i % 5 == 0)
 	{
 	printf("Buzz");
 	}
@@ -26,5 +29,6 @@ int main(void)
 	printf("%d ", i);
 	}
 	}
-	_putchar('\n);
+	_putchar('\n');
+	return (0);
 }
